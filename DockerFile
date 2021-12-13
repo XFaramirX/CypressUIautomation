@@ -1,0 +1,11 @@
+FROM cypress/included:8.3.0
+WORKDIR /e2e
+ENV CYPRESS_ENVIRONMENT=docker
+COPY ./package.json .
+COPY ./cypress.json .
+COPY ./cypress ./cypress
+RUN yarn
+ENTRYPOINT [ "npx","cypress","run" ]
+CMD [""]
+
+
