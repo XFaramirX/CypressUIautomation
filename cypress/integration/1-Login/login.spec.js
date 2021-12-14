@@ -1,22 +1,20 @@
 /// <reference types="cypress" />
-import USERS from "../../fixtures/users.json";
-import LoginPage from "../../pageObjects/loginPage";
+import Users from "../../fixtures/Users.json";
+import LoginPage from "../../pageObjects/LoginPage";
 
 describe("Login Page", () => {
   before("Go To Url", () => {
-    cy.visit("https://www.saucedemo.com/");
+    cy.visit("/");
   });
 
   // Attempt to login with different user credentials.
-  USERS.forEach((user) => {
-    it(`should attempt to login with ${user.description}`, () => {
-      LoginPage.inputUsername(user.name);
-      LoginPage.inputPassword(user.password);
-      LoginPage.loginButton();
-
+  Users.forEach((user) => {
+    it(`Should attempt to login with ${user.description}`, () => {
+      LoginPage.withCredentials(user.name, user.password);
       if (user.error) {
         // If user is not valid then assert error message and clear input fields.
-        LoginPage.assertClearFields(user.errorMessage);
+        LoginPage.assertErrorMessage(user.errorMessage);
+        LoginPage.clearFields();
       } else {
         // we should be redirected valid user to /inventory page.
         cy.url().should("include", "/inventory.html");
