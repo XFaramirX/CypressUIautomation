@@ -1,6 +1,6 @@
-import LoginPage from "../../pageObjects/loginPage";
-import ProductPage from "../../pageObjects/productPage";
-import CartPage from "../../pageObjects/cartPage";
+import LoginPage from "../../pageObjects/loginPage.js";
+import ProductPage from "../../pageObjects/productPage.js";
+import CartPage from "../../pageObjects/cartPage.js";
 
 // Set list of products from inventory to be added/removed to cart
 let inventoryItemsToAdd = [
