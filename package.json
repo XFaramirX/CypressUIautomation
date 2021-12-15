@@ -14,9 +14,7 @@
   "devDependencies": {
     "cypress": "^9.1.1",
     "eslint": "^7.32.0",
-    "eslint-plugin-cypress": "^2.12.1"
-  },
-  "dependencies": {
+    "eslint-plugin-cypress": "^2.12.1",
     "cypress-localstorage-commands": "^1.6.1"
   }
 }
