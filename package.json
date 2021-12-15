@@ -8,5 +8,8 @@
   },
   "devDependencies": {
     "cypress": "^9.1.1"
+  },
+  "dependencies": {
+    "cypress-localstorage-commands": "^1.6.1"
   }
 }

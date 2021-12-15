@@ -10,6 +10,8 @@ class LoginPage {
     cy.get(INPUT_USERNAME).type(userName).should("have.value", userName);
     cy.get(INPUT_PASSWORD).type(password);
     cy.get(LOGIN_BUTTON).click();
+    cy.preserveCookie();
+    cy.clearLocalStorageSnapshot();
   }
   assertErrorMessage(errorMessage) {
     cy.get(ERROR_MESSAGE).should("contain", errorMessage);
