@@ -67,7 +67,7 @@ describe("Purchase flow", () => {
     CartPage.fillOutCheckoutForm("Jose David", "Barrera Bernal", "11631");
   });
 
-  it("Should allow the customer to review Checkout overview details + price", () => {
+  it("Should allow the customer to review Checkout overview details", () => {
     cy.url().should("include", "/checkout-step-two.html");
     ProductPage.checkingProductsInCart();
     CartPage.checkSummaryInfo();
