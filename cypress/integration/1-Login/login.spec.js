@@ -5,7 +5,6 @@ describe("Login Page", () => {
   before("Go To Url", () => {
     cy.visit("/");
   });
-
   // Attempt to login with different user credentials.
   Users.forEach((user) => {
     it(`Should attempt to login with ${user.description}`, () => {
