@@ -1,16 +1,16 @@
 class CartPage {
   continueButtonExist() {
-    cy.get("#continue-shopping").should("exist");
+    cy.get("#continue-shopping").should("be.visible");
   }
 
   cancelButtonExist() {
-    cy.get("#cancel").should("exist");
+    cy.get("#cancel").should("be.visible");
   }
 
-  fillOutCheckoutForm() {
-    cy.get("#first-name").type("Jose David Ismael");
-    cy.get("#last-name").type("Barrera Bernal");
-    cy.get("#postal-code").type("11631");
+  fillOutCheckoutForm(name, lastName, zipCode) {
+    cy.get("#first-name").type(name);
+    cy.get("#last-name").type(lastName);
+    cy.get("#postal-code").type(zipCode);
     cy.get("#continue").click();
   }
 
@@ -28,9 +28,9 @@ class CartPage {
       .eq(1)
       .should("contain.text", "FREE PONY EXPRESS DELIVERY!");
 
-    cy.get(".summary_subtotal_label").should("exist");
-    cy.get(".summary_tax_label").should("exist");
-    cy.get(".summary_total_label").should("exist");
+    cy.get(".summary_subtotal_label").should("be.visible");
+    cy.get(".summary_tax_label").should("be.visible");
+    cy.get(".summary_total_label").should("be.visible");
   }
 
   gotoFinnish() {
@@ -53,7 +53,7 @@ class CartPage {
       .should("have.attr", "src", "/static/media/pony-express.46394a5d.png")
       .should("have.attr", "alt", "Pony Express");
 
-    cy.get("#back-to-products").should("exist");
+    cy.get("#back-to-products").should("be.visible");
   }
 }
 export default new CartPage();

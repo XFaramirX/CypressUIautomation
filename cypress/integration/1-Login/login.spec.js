@@ -1,4 +1,3 @@
-/// <reference types="cypress" />
 import Users from "../../fixtures/Users.json";
 import LoginPage from "../../pageObjects/LoginPage";
 

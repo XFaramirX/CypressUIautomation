@@ -25,7 +25,7 @@ class ProductPage {
   addProductToCart(items) {
     this.listOfProducts = items;
     for (let i = 0; i < this.listOfProducts.length; i++) {
-      cy.contains(".inventory_item", Products[this.listOfProducts[i].id].name)
+      cy.contains(INVENTORY_ITEMS, Products[this.listOfProducts[i].id].name)
         .contains("Add to cart")
         .click();
     }
@@ -47,6 +47,7 @@ class ProductPage {
         (item) => item.id !== items[i].id
       );
     }
+    cy.get(CART_BADGE).should("contain.text", this.listOfProducts.length);
   }
 
   gotoCart() {
@@ -68,7 +69,5 @@ class ProductPage {
       );
     }
   }
-
-  
 }
 export default new ProductPage();

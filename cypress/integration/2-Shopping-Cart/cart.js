@@ -1,5 +1,3 @@
-/// <reference types="cypress" />
-
 import LoginPage from "../../pageObjects/LoginPage";
 import ProductPage from "../../pageObjects/ProductPage";
 import CartPage from "../../pageObjects/CartPage";
@@ -8,13 +6,15 @@ import CartPage from "../../pageObjects/CartPage";
 let inventoryItemsToAdd = [
   { id: 0, productName: "Sauce Labs Bike Light" },
   { id: 1, productName: "Sauce Labs Bolt T-Shirt " },
-  // { id: 2, productName: "Sauce Labs Onesie" },
+  { id: 2, productName: "Sauce Labs Onesie" },
   // { id: 3, productName: "Test.allTheThings() T-Shirt (Red)" },
   // { id: 4, productName: "Sauce Labs Backpack" },
   // { id: 5, productName: "Sauce Labs Fleece Jacket" },
 ];
 
 let inventoryItemsToRemove = [
+  { id: 0, productName: "Sauce Labs Bike Light" },
+  // { id: 1, productName: "Sauce Labs Bolt T-Shirt " },
   // { id: 2, productName: "Sauce Labs Onesie" },
   // { id: 3, productName: "Test.allTheThings() T-Shirt (Red)" },
   // { id: 4, productName: "Sauce Labs Backpack" },
@@ -42,25 +42,29 @@ describe("Purchase flow", () => {
     ProductPage.assertProductItems();
   });
 
-  it("Should allow the customer to add/remove products from inventory to cart", () => {
+  it("Should allow the customer to add/remove products from inventory to cart and update cart badge", () => {
     // Add/Remove products to cart based on ID of the product from fixture (products.json).
     ProductPage.addProductToCart(inventoryItemsToAdd);
-    ProductPage.removeProductFromCart(inventoryItemsToRemove, "inventoryPage");
+    ProductPage.removeProductFromCart(inventoryItemsToRemove);
     ProductPage.gotoCart();
   });
 
-  it("Should allow the customer to validate current selected items in shopping cart and checkout", () => {
+  it("Should allow the customer to validate and remove from current selected items in shopping cart and checkout", () => {
     // Validate if items previously selected were succesfully added to cart.
     cy.url().should("include", "/cart.html");
     CartPage.continueButtonExist();
     ProductPage.checkingProductsInCart();
+    ProductPage.removeProductFromCart(
+      [{ id: 1, productName: "Sauce Labs Bolt T-Shirt " }],
+      "cartPage"
+    );
     ProductPage.gotoCheckout();
   });
 
   it("Should allow the customer to fill out purchase details", () => {
     cy.url().should("include", "/checkout-step-one.html");
     CartPage.cancelButtonExist();
-    CartPage.fillOutCheckoutForm();
+    CartPage.fillOutCheckoutForm("Jose David", "Barrera Bernal", "11631");
   });
 
   it("Should allow the customer to review Checkout overview details + price", () => {
