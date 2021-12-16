@@ -8,6 +8,12 @@ In this project E2E test were develop in order to automate the Login and Purchas
 
 List of Test Scenarios:  
 
+* Login Functionality
+* Add/Remove products from inventory to cart and update cart badge
+* Check items added to  shopping cart / remove unwanted items and proceed with checkout
+* Complete Checkout
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for testing purposes.
@@ -28,46 +34,33 @@ yarn install
 
 ## How to run tests:
 
-#### Command interface
+#### Command interface Only
 
 ```
 yarn cypress:run
 ```
 
-#### View and Generate Report
+####  Generate and View Report History
 
-You can view the lastest report at: URL
-
-Or you can generate a new one in your local host.
-
+You can generate the latest report run for the end to end flow from your local host
 ```
-yarn cypress:report
+yarn e2e
 ```
+This command will execute create a detail report using Allure reporter inside **/allure-report** folder.
+After executing this command the report would open automatically in a new window. 
 
-This command will execute create a detail report using htmlextra reporter inside **/newman** folder.
+If you want to run the same test collection and get the history just run yarn e2e again and go to opened report url /allure-report/index.html#graph **Retries trend.** 
 
-You can launch the report using VScode "live-server" plugin.
-See example: 
-
-#### Run in Docker
-
+#### Run in Docker 
 Run below command to pull docker image
-
 ```
 docker pull cypress/included:8.3.0
 ```
-
-Run collection
-
-Run collection inside docker and update live report.
-
 ```
 yarn docker:run
 ```
 
 ## Reporting
-
-You can find the latest **LIVE REPORT Here** : 
 
 Reporting Tools used:
 
@@ -77,8 +70,6 @@ https://github.com/Shelex/cypress-allure-plugin
 
 ## Author
 
-- **Jose David Barrera - Colombia**
-
-#### License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+- **Jose David Barrera - Colombia** 
+Linkedin: https://www.linkedin.com/in/david-barrera-bernal-90096447/ 
+https://developers.google.com/profile/u/xfaramir 
