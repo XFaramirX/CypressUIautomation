@@ -60,6 +60,11 @@ docker pull cypress/included:8.3.0
 yarn docker:run
 ```
 
+
+### GithubActions
+You can see the latest run in CI/CD at : https://github.com/XFaramirX/ultraUIautomation/actions/workflows/included.yml 
+Currently using actions/checkout@v2 workflow.
+
 ## Reporting
 
 Reporting Tools used:
