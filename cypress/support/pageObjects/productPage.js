@@ -1,4 +1,4 @@
-import Products from "../../fixtures/Products.json";
+import Products from "../../fixtures/products.json";
 
 //Fields defined in the page object
 const INVENTORY_ITEMS = ".inventory_item";
