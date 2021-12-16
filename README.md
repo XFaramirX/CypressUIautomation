@@ -1,4 +1,4 @@
-# ULTRA.IO UI - Automation Test
+# Sauce UI - Automation Test
 
 This is Automated test which was build to test https://www.saucedemo.com/ eCommerce site UI Functionality using cypress as javascript framework.
 
