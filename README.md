@@ -20,7 +20,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Installing
 
-#### Clone repo
+#### Clone repo and go to it.
 
 ```
 git clone https://github.com/XFaramirX/ultraUIautomation
