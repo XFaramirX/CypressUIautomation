@@ -1,0 +1,339 @@
+{
+  "uid" : "efd0abf3805faba3",
+  "name" : "Should attempt to login with Wrong User",
+  "fullName" : "Should attempt to login with Wrong User",
+  "historyId" : "55ff6b4dbefd9ec8b019308b61ec6b88",
+  "time" : {
+    "start" : 1639676349175,
+    "stop" : 1639676350267,
+    "duration" : 1092
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit /",
+      "time" : {
+        "start" : 1639676347295,
+        "stop" : 1639676347539,
+        "duration" : 244
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get #user-name",
+      "time" : {
+        "start" : 1639676349186,
+        "stop" : 1639676349189,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type wrong_user",
+      "time" : {
+        "start" : 1639676349189,
+        "stop" : 1639676349450,
+        "duration" : 261
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<input#user-name.input_error.form_input>** to have value **wrong_user**",
+      "time" : {
+        "start" : 1639676349450,
+        "stop" : 1639676349450,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "wrong_user"
+      }, {
+        "name" : "expected",
+        "value" : "wrong_user"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "get #password",
+      "time" : {
+        "start" : 1639676349450,
+        "stop" : 1639676349452,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type wrong_password",
+      "time" : {
+        "start" : 1639676349452,
+        "stop" : 1639676349757,
+        "duration" : 305
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get #login-button",
+      "time" : {
+        "start" : 1639676349757,
+        "stop" : 1639676349760,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1639676349760,
+        "stop" : 1639676349850,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "preserveCookie",
+      "time" : {
+        "start" : 1639676349850,
+        "stop" : 1639676349851,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "clearLocalStorageSnapshot",
+      "time" : {
+        "start" : 1639676349851,
+        "stop" : 1639676349851,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get .error-message-container",
+      "time" : {
+        "start" : 1639676349851,
+        "stop" : 1639676349857,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<div.error-message-container.error>** to contain **Epic sadface: Username and password do not match any user in this service**",
+      "time" : {
+        "start" : 1639676349857,
+        "stop" : 1639676349857,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get .error-button",
+      "time" : {
+        "start" : 1639676349857,
+        "stop" : 1639676349859,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1639676349859,
+        "stop" : 1639676349943,
+        "duration" : 84
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get #user-name",
+      "time" : {
+        "start" : 1639676349943,
+        "stop" : 1639676349946,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "clear",
+      "time" : {
+        "start" : 1639676349946,
+        "stop" : 1639676350113,
+        "duration" : 167
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get #password",
+      "time" : {
+        "start" : 1639676350113,
+        "stop" : 1639676350116,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "clear",
+      "time" : {
+        "start" : 1639676350116,
+        "stop" : 1639676350267,
+        "duration" : 151
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "6ef1d6c517f14462",
+      "name" : "video recording",
+      "source" : "6ef1d6c517f14462.mp4",
+      "type" : "video/mp4",
+      "size" : 362769
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 17,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Login Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "efd0abf3805faba3.json",
+  "parameterValues" : [ ]
+}

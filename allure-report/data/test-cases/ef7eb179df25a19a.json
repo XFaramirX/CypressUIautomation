@@ -1,0 +1,649 @@
+{
+  "uid" : "ef7eb179df25a19a",
+  "name" : "Should allow the customer to add/remove products from inventory to cart and update cart badge",
+  "fullName" : "Should allow the customer to add/remove products from inventory to cart and update cart badge",
+  "historyId" : "6105662b7e7c540c5c939e3f06a2ac99",
+  "time" : {
+    "start" : 1639676395161,
+    "stop" : 1639676395612,
+    "duration" : 451
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit /",
+      "time" : {
+        "start" : 1639676394229,
+        "stop" : 1639676394317,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get #user-name",
+      "time" : {
+        "start" : 1639676394317,
+        "stop" : 1639676394326,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type standard_user",
+      "time" : {
+        "start" : 1639676394327,
+        "stop" : 1639676394638,
+        "duration" : 311
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<input#user-name.input_error.form_input>** to have value **standard_user**",
+      "time" : {
+        "start" : 1639676394638,
+        "stop" : 1639676394638,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "standard_user"
+      }, {
+        "name" : "expected",
+        "value" : "standard_user"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "get #password",
+      "time" : {
+        "start" : 1639676394638,
+        "stop" : 1639676394641,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type secret_sauce",
+      "time" : {
+        "start" : 1639676394641,
+        "stop" : 1639676394915,
+        "duration" : 274
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get #login-button",
+      "time" : {
+        "start" : 1639676394915,
+        "stop" : 1639676394918,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1639676394918,
+        "stop" : 1639676395060,
+        "duration" : 142
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "new url https://www.saucedemo.com/inventory.html",
+      "time" : {
+        "start" : 1639676395060,
+        "stop" : 1639676395060,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "preserveCookie",
+      "time" : {
+        "start" : 1639676395060,
+        "stop" : 1639676395060,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "clearLocalStorageSnapshot",
+      "time" : {
+        "start" : 1639676395060,
+        "stop" : 1639676395061,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 11,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1639676395162,
+        "stop" : 1639676395173,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "restoreLocalStorage",
+        "time" : {
+          "start" : 1639676395173,
+          "stop" : 1639676395173,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "contains .inventory_item, Sauce Labs Bike Light",
+      "time" : {
+        "start" : 1639676395174,
+        "stop" : 1639676395181,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "contains Add to cart",
+      "time" : {
+        "start" : 1639676395181,
+        "stop" : 1639676395185,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1639676395185,
+        "stop" : 1639676395263,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "contains .inventory_item, Sauce Labs Bolt T-Shirt",
+      "time" : {
+        "start" : 1639676395263,
+        "stop" : 1639676395267,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "contains Add to cart",
+      "time" : {
+        "start" : 1639676395267,
+        "stop" : 1639676395270,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1639676395270,
+        "stop" : 1639676395348,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "contains .inventory_item, Sauce Labs Onesie",
+      "time" : {
+        "start" : 1639676395348,
+        "stop" : 1639676395352,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "contains Add to cart",
+      "time" : {
+        "start" : 1639676395352,
+        "stop" : 1639676395355,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1639676395355,
+        "stop" : 1639676395432,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get .shopping_cart_badge",
+      "time" : {
+        "start" : 1639676395433,
+        "stop" : 1639676395437,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<span.shopping_cart_badge>** to contain text **'3'**",
+      "time" : {
+        "start" : 1639676395437,
+        "stop" : 1639676395437,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "3"
+      }, {
+        "name" : "expected",
+        "value" : "3"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "contains .inventory_item, Sauce Labs Bike Light",
+      "time" : {
+        "start" : 1639676395437,
+        "stop" : 1639676395440,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "find button",
+      "time" : {
+        "start" : 1639676395440,
+        "stop" : 1639676395444,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<button#remove-sauce-labs-bike-light.btn.btn_secondary.btn_small.btn_inventory>** to have text **Remove**",
+      "time" : {
+        "start" : 1639676395444,
+        "stop" : 1639676395444,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "Remove"
+      }, {
+        "name" : "expected",
+        "value" : "Remove"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1639676395444,
+        "stop" : 1639676395521,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get .shopping_cart_badge",
+      "time" : {
+        "start" : 1639676395522,
+        "stop" : 1639676395525,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<span.shopping_cart_badge>** to contain text **'2'**",
+      "time" : {
+        "start" : 1639676395525,
+        "stop" : 1639676395525,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "2"
+      }, {
+        "name" : "expected",
+        "value" : "2"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "get .shopping_cart_badge",
+      "time" : {
+        "start" : 1639676395525,
+        "stop" : 1639676395527,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1639676395527,
+        "stop" : 1639676395612,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "new url https://www.saucedemo.com/cart.html",
+      "time" : {
+        "start" : 1639676395612,
+        "stop" : 1639676395612,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1639676395617,
+        "stop" : 1639676395617,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "saveLocalStorage",
+        "time" : {
+          "start" : 1639676395617,
+          "stop" : 1639676395617,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "1875eb114de9e116",
+      "name" : "video recording",
+      "source" : "1875eb114de9e116.mp4",
+      "type" : "video/mp4",
+      "size" : 715149
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1,
+    "stepsCount" : 24,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Purchase flow"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "11fd2c6e81d409fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639676355776,
+        "stop" : 1639676356295,
+        "duration" : 519
+      }
+    }, {
+      "uid" : "54f134087a56c930",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639676319292,
+        "stop" : 1639676319794,
+        "duration" : 502
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "79d46555fc188517",
+        "status" : "passed",
+        "time" : {
+          "start" : 1639676319292,
+          "stop" : 1639676319794,
+          "duration" : 502
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ef7eb179df25a19a.json",
+  "parameterValues" : [ ]
+}

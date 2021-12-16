@@ -1,0 +1,564 @@
+{
+  "uid" : "aabff7021806b48d",
+  "name" : "Should show checkout complete",
+  "fullName" : "Should show checkout complete",
+  "historyId" : "501655d405523b12ca92d0973bc26fdc",
+  "time" : {
+    "start" : 1639676357585,
+    "stop" : 1639676358299,
+    "duration" : 714
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "time" : { },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "visit /",
+      "time" : {
+        "start" : 1639676354836,
+        "stop" : 1639676354924,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get #user-name",
+      "time" : {
+        "start" : 1639676354924,
+        "stop" : 1639676354934,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type standard_user",
+      "time" : {
+        "start" : 1639676354935,
+        "stop" : 1639676355240,
+        "duration" : 305
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<input#user-name.input_error.form_input>** to have value **standard_user**",
+      "time" : {
+        "start" : 1639676355240,
+        "stop" : 1639676355240,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "standard_user"
+      }, {
+        "name" : "expected",
+        "value" : "standard_user"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "get #password",
+      "time" : {
+        "start" : 1639676355240,
+        "stop" : 1639676355243,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "type secret_sauce",
+      "time" : {
+        "start" : 1639676355243,
+        "stop" : 1639676355534,
+        "duration" : 291
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get #login-button",
+      "time" : {
+        "start" : 1639676355534,
+        "stop" : 1639676355537,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "click",
+      "time" : {
+        "start" : 1639676355537,
+        "stop" : 1639676355682,
+        "duration" : 145
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "new url https://www.saucedemo.com/inventory.html",
+      "time" : {
+        "start" : 1639676355682,
+        "stop" : 1639676355682,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "preserveCookie",
+      "time" : {
+        "start" : 1639676355682,
+        "stop" : 1639676355682,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "clearLocalStorageSnapshot",
+      "time" : {
+        "start" : 1639676355683,
+        "stop" : 1639676355683,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 11,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1639676357585,
+        "stop" : 1639676357597,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "restoreLocalStorage",
+        "time" : {
+          "start" : 1639676357596,
+          "stop" : 1639676357596,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "hasContent" : true
+    }, {
+      "name" : "url",
+      "time" : {
+        "start" : 1639676357597,
+        "stop" : 1639676357599,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **https://www.saucedemo.com/checkout-complete.html** to include **/checkout-complete.html**",
+      "time" : {
+        "start" : 1639676357599,
+        "stop" : 1639676357599,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "https://www.saucedemo.com/checkout-complete.html"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "screenshot",
+      "time" : {
+        "start" : 1639676357599,
+        "stop" : 1639676358280,
+        "duration" : 681
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "get .title",
+      "time" : {
+        "start" : 1639676358280,
+        "stop" : 1639676358287,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<span.title>** to contain text **Checkout: Complete!**",
+      "time" : {
+        "start" : 1639676358287,
+        "stop" : 1639676358287,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "Checkout: Complete!"
+      }, {
+        "name" : "expected",
+        "value" : "Checkout: Complete!"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "get .complete-header",
+      "time" : {
+        "start" : 1639676358287,
+        "stop" : 1639676358290,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<h2.complete-header>** to contain text **THANK YOU FOR YOUR ORDER**",
+      "time" : {
+        "start" : 1639676358290,
+        "stop" : 1639676358290,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "THANK YOU FOR YOUR ORDER"
+      }, {
+        "name" : "expected",
+        "value" : "THANK YOU FOR YOUR ORDER"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "get .complete-text",
+      "time" : {
+        "start" : 1639676358290,
+        "stop" : 1639676358292,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<div.complete-text>** to contain text **Your order has been dispatched, and will arrive just as fast as the pony can get there!**",
+      "time" : {
+        "start" : 1639676358292,
+        "stop" : 1639676358292,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "Your order has been dispatched, and will arrive just as fast as the pony can get there!"
+      }, {
+        "name" : "expected",
+        "value" : "Your order has been dispatched, and will arrive just as fast as the pony can get there!"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "get .pony_express",
+      "time" : {
+        "start" : 1639676358292,
+        "stop" : 1639676358297,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<img.pony_express>** to exist in the DOM",
+      "time" : {
+        "start" : 1639676358297,
+        "stop" : 1639676358297,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "<img.pony_express>"
+      }, {
+        "name" : "expected",
+        "value" : "<img.pony_express>"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "assert expected **<img.pony_express>** to have attribute **src** with the value **/static/media/pony-express.46394a5d.png**",
+      "time" : {
+        "start" : 1639676358297,
+        "stop" : 1639676358297,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "/static/media/pony-express.46394a5d.png"
+      }, {
+        "name" : "expected",
+        "value" : "/static/media/pony-express.46394a5d.png"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "assert expected **<img.pony_express>** to have attribute **alt** with the value **Pony Express**",
+      "time" : {
+        "start" : 1639676358297,
+        "stop" : 1639676358297,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "Pony Express"
+      }, {
+        "name" : "expected",
+        "value" : "Pony Express"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "get #back-to-products",
+      "time" : {
+        "start" : 1639676358297,
+        "stop" : 1639676358299,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "assert expected **<button#back-to-products.btn.btn_primary.btn_small>** to be **visible**",
+      "time" : {
+        "start" : 1639676358299,
+        "stop" : 1639676358299,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1639676358304,
+        "stop" : 1639676358304,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "saveLocalStorage",
+        "time" : {
+          "start" : 1639676358304,
+          "stop" : 1639676358304,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "52fedc571c36da1c",
+      "name" : "2-Shopping-Cart/cart.js:2021-12-16T17:39:17.774Z",
+      "source" : "52fedc571c36da1c.png",
+      "type" : "image/png",
+      "size" : 141114
+    }, {
+      "uid" : "b6a684f24580d562",
+      "name" : "video recording",
+      "source" : "b6a684f24580d562.mp4",
+      "type" : "video/mp4",
+      "size" : 579252
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2,
+    "stepsCount" : 19,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Purchase flow"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aabff7021806b48d.json",
+  "parameterValues" : [ ]
+}

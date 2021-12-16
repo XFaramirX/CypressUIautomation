@@ -76,6 +76,7 @@ describe("Purchase flow", () => {
 
   it("Should show checkout complete", () => {
     cy.url().should("include", "/checkout-complete.html");
+    cy.screenshot();
     CartPage.checkOrderConfirmation();
   });
 });

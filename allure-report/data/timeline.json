@@ -1,0 +1,515 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Should allow the customer to validate and remove from current selected items in shopping cart and checkout",
+    "uid" : "ad73c361f2383c8e",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676395623,
+      "stop" : 1639676395845,
+      "duration" : 222
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should allow the customer to review Checkout overview details",
+    "uid" : "2f18d8417de142a3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676396759,
+      "stop" : 1639676396900,
+      "duration" : 141
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should allow the customer to add/remove products from inventory to cart and update cart badge",
+    "uid" : "54f134087a56c930",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676319292,
+      "stop" : 1639676319794,
+      "duration" : 502
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should allow the customer to fill out purchase details",
+    "uid" : "51e1c89184e32137",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676320030,
+      "stop" : 1639676320920,
+      "duration" : 890
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should allow the customer to fill out purchase details",
+    "uid" : "19961c23d8ae7083",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676356529,
+      "stop" : 1639676357418,
+      "duration" : 889
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should attempt to login with Valid Standard User",
+    "uid" : "16c5f99704c36bde",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676313756,
+      "stop" : 1639676314463,
+      "duration" : 707
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should allow the customer to review Checkout overview details",
+    "uid" : "ea0745023ab11533",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676357429,
+      "stop" : 1639676357580,
+      "duration" : 151
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should attempt to login with Wrong User",
+    "uid" : "818cfd1bbfe91a03",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676388536,
+      "stop" : 1639676389631,
+      "duration" : 1095
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should show checkout complete",
+    "uid" : "ba0e970fe8f90471",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676321085,
+      "stop" : 1639676321808,
+      "duration" : 723
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should attempt to login with No Username",
+    "uid" : "a1f549c9c6e19897",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676311041,
+      "stop" : 1639676311861,
+      "duration" : 820
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should show checkout complete",
+    "uid" : "aabff7021806b48d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676357585,
+      "stop" : 1639676358299,
+      "duration" : 714
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should display products with correct information",
+    "uid" : "57dd4920373e71c2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676319203,
+      "stop" : 1639676319248,
+      "duration" : 45
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should attempt to login with No Username",
+    "uid" : "ba111ef54896abe1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676347541,
+      "stop" : 1639676348349,
+      "duration" : 808
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should allow the customer to validate and remove from current selected items in shopping cart and checkout",
+    "uid" : "8ca291f3c070cc85",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676356306,
+      "stop" : 1639676356518,
+      "duration" : 212
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should display products with correct information",
+    "uid" : "fdd559e1b654720f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676355684,
+      "stop" : 1639676355758,
+      "duration" : 74
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should attempt to login with Wrong User",
+    "uid" : "efd0abf3805faba3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676349175,
+      "stop" : 1639676350267,
+      "duration" : 1092
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should attempt to login with Valid Standard User",
+    "uid" : "572d7233de866a95",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676389636,
+      "stop" : 1639676390329,
+      "duration" : 693
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should attempt to login with No Password",
+    "uid" : "2d0f5a592792c8d2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676348355,
+      "stop" : 1639676349168,
+      "duration" : 813
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should attempt to login with No Password",
+    "uid" : "258e7b5e493df5aa",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676311867,
+      "stop" : 1639676312677,
+      "duration" : 810
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should allow the customer to fill out purchase details",
+    "uid" : "54d525469e3f5e72",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676395855,
+      "stop" : 1639676396747,
+      "duration" : 892
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should attempt to login with No Password",
+    "uid" : "4b993203eb2aeddc",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676387743,
+      "stop" : 1639676388530,
+      "duration" : 787
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should attempt to login with Wrong User",
+    "uid" : "a22ee4ba321b363b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676312683,
+      "stop" : 1639676313750,
+      "duration" : 1067
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should show checkout complete",
+    "uid" : "52844364867378e1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676396905,
+      "stop" : 1639676397661,
+      "duration" : 756
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should allow the customer to validate and remove from current selected items in shopping cart and checkout",
+    "uid" : "a346ea4546f6359",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676319806,
+      "stop" : 1639676320019,
+      "duration" : 213
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should allow the customer to review Checkout overview details",
+    "uid" : "695143287a7e78f0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676320931,
+      "stop" : 1639676321080,
+      "duration" : 149
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should attempt to login with Valid Standard User",
+    "uid" : "9140329fd91aa6bf",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676350274,
+      "stop" : 1639676350964,
+      "duration" : 690
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should allow the customer to add/remove products from inventory to cart and update cart badge",
+    "uid" : "ef7eb179df25a19a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676395161,
+      "stop" : 1639676395612,
+      "duration" : 451
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should attempt to login with No Username",
+    "uid" : "d1ea59fbf50d2daa",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676386912,
+      "stop" : 1639676387737,
+      "duration" : 825
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should allow the customer to add/remove products from inventory to cart and update cart badge",
+    "uid" : "11fd2c6e81d409fa",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676355776,
+      "stop" : 1639676356295,
+      "duration" : 519
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Should display products with correct information",
+    "uid" : "7f37bb31a90eda0d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1639676395062,
+      "stop" : 1639676395111,
+      "duration" : 49
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 2,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  } ]
+}

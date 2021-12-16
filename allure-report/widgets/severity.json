@@ -1,0 +1,101 @@
+[ {
+  "uid" : "572d7233de866a95",
+  "name" : "Should attempt to login with Valid Standard User",
+  "time" : {
+    "start" : 1639676389636,
+    "stop" : 1639676390329,
+    "duration" : 693
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f18d8417de142a3",
+  "name" : "Should allow the customer to review Checkout overview details",
+  "time" : {
+    "start" : 1639676396759,
+    "stop" : 1639676396900,
+    "duration" : 141
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b993203eb2aeddc",
+  "name" : "Should attempt to login with No Password",
+  "time" : {
+    "start" : 1639676387743,
+    "stop" : 1639676388530,
+    "duration" : 787
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52844364867378e1",
+  "name" : "Should show checkout complete",
+  "time" : {
+    "start" : 1639676396905,
+    "stop" : 1639676397661,
+    "duration" : 756
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1ea59fbf50d2daa",
+  "name" : "Should attempt to login with No Username",
+  "time" : {
+    "start" : 1639676386912,
+    "stop" : 1639676387737,
+    "duration" : 825
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad73c361f2383c8e",
+  "name" : "Should allow the customer to validate and remove from current selected items in shopping cart and checkout",
+  "time" : {
+    "start" : 1639676395623,
+    "stop" : 1639676395845,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54d525469e3f5e72",
+  "name" : "Should allow the customer to fill out purchase details",
+  "time" : {
+    "start" : 1639676395855,
+    "stop" : 1639676396747,
+    "duration" : 892
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef7eb179df25a19a",
+  "name" : "Should allow the customer to add/remove products from inventory to cart and update cart badge",
+  "time" : {
+    "start" : 1639676395161,
+    "stop" : 1639676395612,
+    "duration" : 451
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f37bb31a90eda0d",
+  "name" : "Should display products with correct information",
+  "time" : {
+    "start" : 1639676395062,
+    "stop" : 1639676395111,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "818cfd1bbfe91a03",
+  "name" : "Should attempt to login with Wrong User",
+  "time" : {
+    "start" : 1639676388536,
+    "stop" : 1639676389631,
+    "duration" : 1095
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
