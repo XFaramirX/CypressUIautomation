@@ -1,15 +1,14 @@
-name: included
+name: Cypress Tests
+
 on: [push]
+
 jobs:
   cypress-run:
     runs-on: ubuntu-latest
-    # Docker image with Cypress pre-installed
-    # https://github.com/cypress-io/cypress-docker-images/tree/master/included
-    container: cypress/included:8.3.0
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 14
-      - run: yarn install
-      - run: cypress run --browser chrome
+      - name: Checkout
+        uses: actions/checkout@v2
+      # Install NPM dependencies, cache them correctly
+      # and run all Cypress tests
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
