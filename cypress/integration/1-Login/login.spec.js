@@ -1,5 +1,5 @@
 import Users from "../../fixtures/Users.json";
-import LoginPage from "../../pageObjects/loginPage.js";
+import LoginPage from "../../support/pageObjects/loginPage.js";
 
 describe("Login Page", () => {
   before("Go To Url", () => {
