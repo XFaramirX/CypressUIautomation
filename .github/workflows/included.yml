@@ -12,4 +12,4 @@ jobs:
         with:
           node-version: 14
       - run: yarn install
-      - run: cypress run
+      - run: cypress run --browser chrome
