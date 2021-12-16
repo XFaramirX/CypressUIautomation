@@ -1,4 +1,4 @@
-import LoginPage from "../../support/pageObjects/LoginPage.js";
+import LoginPage from "../../support/pageObjects/loginPage.js";
 import ProductPage from "../../support/pageObjects/productPage";
 import CartPage from "../../support/pageObjects/cartPage";
 
