@@ -1,4 +1,4 @@
-import Users from "../../fixtures/Users.json";
+import Users from "../../fixtures/users.json";
 import LoginPage from "../../support/pageObjects/loginPage.js";
 
 describe("Login Page", () => {
